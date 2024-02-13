@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    background-image: url("images/background2.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    min-width: 800px;
+    border-top: 10px solid blanchedalmond;
+    border-bottom: 10px solid blanchedalmond;
+    top: 10px;
+    padding: 20px ;
+    margin: 60px;
+    min-height: 90vh;
+
+
+
+    
+}
+
+.input-area{
+    position: relative;
+}
+.task-tabs{
+    display: flex;
+    border-bottom:1px solid lightblue;
+}
+.task-tabs div{
+    padding: 1em;
+}
+.task-area{
+    border:1px solid lightblue;
+}
+#under-line{
+    height: 4px;
+    background-color: pink;
+    position:absolute;
+    top: 235px;
+    left: 80px;
+     width: 65px;
+    transition: 0.5s;
+    padding: 0px;
+
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
