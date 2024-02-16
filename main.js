@@ -106,6 +106,8 @@ function deleteTask(id){
     for(let i=0;i<taskList.length;i++){
         if(taskList[i].id==id){
             taskList.splice(i,1)
+            filterList = filterList.filter(task => task.id !== id);
+            
             break;
         }
     }
