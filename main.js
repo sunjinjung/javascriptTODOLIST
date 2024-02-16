@@ -95,8 +95,7 @@ function toggleComplete(id){
             break;
         }
     }
-    render();
-    console.log(taskList)
+   filter()
 }
 
 function randomIDGenerate(){
